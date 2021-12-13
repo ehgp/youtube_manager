@@ -1,0 +1,88 @@
+YT_PARAMS:
+
+    YOUTUBE_LOGIN: "https://accounts.google.com/ServiceLogin/signinchooser?service=youtube"
+
+    YOUTUBE_SEARCH_BAR: "https://www.youtube.com/results?search_query="
+
+    # YOUTUBE_SEARCH_STRING: '-lyrics -link -part -lyrical -song -cover -playlist -review -quotes -game -trailer \"how to\" -hindi -reaction -bollywood -nollywood -hot -erotic'
+
+    YOUTUBE_FILTER_BUTTON: "//paper-button[@aria-label='Search filters']"
+
+    YOUTUBE_UP_LAST_HOUR: "//yt-formatted-string[text()='Last hour']"
+
+    YOUTUBE_UP_TODAY: "//yt-formatted-string[text()='Today']"
+
+    YOUTUBE_UP_THIS_WEEK: "//yt-formatted-string[text()='This week']"
+
+    YOUTUBE_UP_THIS_MONTH: "//yt-formatted-string[text()='This month']"
+
+    YOUTUBE_UP_THIS_YEAR: "//yt-formatted-string[text()='This year']"
+
+    YOUTUBE_TYPE_VIDEO: "//yt-formatted-string[text()='Video']"
+
+    YOUTUBE_TYPE_CHANNEL: "//yt-formatted-string[text()='Channel']"
+
+    YOUTUBE_TYPE_PLAYLIST: "//yt-formatted-string[text()='Playlist']"
+
+    YOUTUBE_TYPE_MOVIE: "//yt-formatted-string[text()='Movie']"
+
+    YOUTUBE_TYPE_SHOW: "//yt-formatted-string[text()='Show']"
+
+    YOUTUBE_DURATION_SHORT: "//yt-formatted-string[text()='Short (< 4 minutes)']"
+
+    YOUTUBE_DURATION_LONG: "//yt-formatted-string[text()='Long (> 20 minutes)']"
+
+    YOUTUBE_FEATURED_LIVE: "//yt-formatted-string[text()='Live']"
+
+    YOUTUBE_FEATURED_4K: "//yt-formatted-string[text()='4K']"
+
+    YOUTUBE_FEATURED_HD: "//yt-formatted-string[text()='HD']"
+
+    YOUTUBE_FEATURED_SUBTITLESCC: "//yt-formatted-string[text()='Subtitles/CC']"
+
+    YOUTUBE_FEATURED_CREATIVE: "//yt-formatted-string[text()='Creative Commons']"
+
+    YOUTUBE_FEATURED_360: "//yt-formatted-string[text()='360°']"
+
+    YOUTUBE_FEATURED_VR180: "//yt-formatted-string[text()='VR180']"
+
+    YOUTUBE_FEATURED_3D: "//yt-formatted-string[text()='3D']"
+
+    YOUTUBE_FEATURED_HDR: "//yt-formatted-string[text()='HDR']"
+
+    YOUTUBE_FEATURED_LOCATION: "//yt-formatted-string[text()='Location']"
+
+    YOUTUBE_FEATURED_PURCHASED: "//yt-formatted-string[text()='Purchased']"
+
+    YOUTUBE_SORT_BY_REVELANCE: "//yt-formatted-string[text()='Relevance']"
+
+    YOUTUBE_SORT_BY_UPLOAD_DATE: "//yt-formatted-string[text()='Upload Date']"
+
+    YOUTUBE_SORT_BY_RATING: "//yt-formatted-string[text()='Rating']"
+
+    YOUTUBE_SORT_BY_VIEW_COUNT: "//yt-formatted-string[text()='View count']"
+
+    # UPLOAD PARAMETERS
+    YOUTUBE_STUDIO: "https://studio.youtube.com/channel/"
+
+    YOUTUBE_UPLOAD_BUTTON: "//ytcp-button[@id='upload-button']"
+
+    YOUTUBE_TITLE_XPATH: "//ytcp-mention-input[@id='input']/div[@aria-label='Add a title that describes your video']"
+
+    YOUTUBE_DESCRIPTION_XPATH: (
+        "//ytcp-mention-input[@id='input']/div[@aria-label='Tell viewers about your video']"
+    )
+
+    YOUTUBE_NO_KIDS_XPATH: "//paper-radio-button[@name='NOT_MADE_FOR_KIDS']"
+
+    YOUTUBE_MORE_OPTIONS_XPATH: "//ytcp-button[@label='More options']"
+
+    YOUTUBE_PAID_PROMO_XPATH: "//ytcp-checkbox-lit[@id='has-ppp']"
+
+    YOUTUBE_TAGS_XPATH: "//input[@aria-label='Tags']"
+
+    YOUTUBE_NEXT_XPATH: "//ytcp-button[@id='next-button']"
+
+    YOUTUBE_PUBLIC_XPATH: "//paper-radio-button[@name='PUBLIC']"
+
+    YOUTUBE_DONE_XPATH: "//ytcp-button[@id='done-button']"

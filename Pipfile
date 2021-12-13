@@ -1,0 +1,21 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[packages]
+ipython = "*"
+requests = "==2.24.0"
+selenium = "==3.141.0"
+pandas = "*"
+pyautogui = "==0.9.52"
+pathlib2 = "==2.3.5"
+pytube = "==10.4.1"
+bs4 = "==0.0.1"
+lxml = "*"
+shutil = "*"
+keyring = "==22.3.0"
+pyyaml = "==5.4.1"
+
+[requires]
+python_version = "3.8"
